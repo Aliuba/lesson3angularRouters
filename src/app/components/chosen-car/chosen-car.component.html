@@ -1,0 +1,4 @@
+
+<div *ngFor="let c of cars">
+  <div [class.chosen]="c"  *ngIf="c.id==car.id">{{c.id}}.{{c.color}}--{{c.model}}</div>
+</div>
